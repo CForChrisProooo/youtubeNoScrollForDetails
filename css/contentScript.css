@@ -1,0 +1,13 @@
+.ytp-fullerscreen-edu-button {
+    display: none !important;
+}
+
+.ytp-no-scrool-for-more-hide {
+    display: none !important;
+}
+
+#page-manager.ytp-no-scrool-for-more-hide {
+    display: block !important;
+    overflow: hidden;
+    height: 100vh;
+}
