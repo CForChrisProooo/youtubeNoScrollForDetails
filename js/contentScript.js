@@ -10,8 +10,8 @@ const elementsToHide = [
     'container',
     'page-manager'
 ]
-const show = (elements) => elements.forEach(e => document.getElementById(e).classList.remove('ytp-no-scrool-for-more-hide'));
-const hide = (elements) => elements.forEach(e => document.getElementById(e).classList.add('ytp-no-scrool-for-more-hide'));
+const show = (elements) => elements.forEach(e => document.getElementById(e)?.classList?.remove('ytp-no-scrool-for-more-hide'));
+const hide = (elements) => elements.forEach(e => document.getElementById(e)?.classList?.add('ytp-no-scrool-for-more-hide'));
 const wheelScrollListener = { handleEvent: (e) => e.preventDefault() };
 
 document.onfullscreenchange = () => {
@@ -23,3 +23,9 @@ document.onfullscreenchange = () => {
         document.removeEventListener('wheel', wheelScrollListener, { passive: false })
     }
 }
+
+document.addEventListener('wheel', () => {
+    if (document.body.classList.contains('no-scroll')) {
+        e.preventDefault();
+    }
+}, { passive: false });
