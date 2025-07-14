@@ -5,4 +5,4 @@ Modified to support FireFox by ChrisPro.
 
 ## Installation
 
-Got to the extension in [chrome web store](https://chrome.google.com/webstore/detail/ctrl-zoom/hfkjahglikjilgkjofapdkdboikoobfg) and add it to your browser.
+Go to the extension in [Firefox addon store](https://addons.mozilla.org/en-US/firefox/addon/youtube-no-scroll-for-details/) and add it to your browser.
