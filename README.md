@@ -1,6 +1,6 @@
 # youtubeNoScrollForDetails
 
-Chrome extension to just remove the scroll for details feature from YouTube.
+Firefox extension to just remove the scroll for details feature from YouTube.
 Modified to support FireFox by Chrispro.
 
 ## Installation
